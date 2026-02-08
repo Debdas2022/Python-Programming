@@ -1,0 +1,11 @@
+# Fibonacci Series
+Fibonacii_Terms = int(input("Enter how many terms: "))
+
+a = 0
+b = 1
+
+print("Fibonacci Series:")
+
+for i in range(Fibonacii_Terms):
+   print(a, end=" ")
+   a, b = b, a + b
